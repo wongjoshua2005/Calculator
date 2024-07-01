@@ -1,3 +1,5 @@
+/** To center the container and add frame around the body to center **/ 
+
 body {
     background-color: lightcoral;
 }
@@ -14,4 +16,44 @@ body {
     height: 500px;
     background-color:darkred;
     border-radius: 10px;
+}
+
+/** Style the result button **/
+
+.results {
+    background-color: white;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/** Style the button container **/
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid;
+    height: 375px;
+    flex-flow: column nowrap;
+
+}
+
+/** Style the calculator buttons **/
+.input {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: none;
+    background: none;
+    border-radius: 10px;
+    background-color: red;
+    outline: none;
+
+}
+
+.input:hover {
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    background-color: rgb(88, 2, 2);
 }
