@@ -105,10 +105,11 @@ function display()
                     let convertNum1 = parseInt(firstNum);
                     let convertNum2 = parseInt(secondNum);
                     firstNum = "";
-                    firstNum += "" + operate(convertNum1, convertNum2, operator);
+                    firstNum += `${operate(convertNum1, convertNum2, operator)}`;
                     result.textContent = firstNum;
                     secondNum = "";
                     operator = "";
+                    onSecondNum = false;
                     break;
             }
         });
