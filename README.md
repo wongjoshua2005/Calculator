@@ -1,5 +1,8 @@
 # Calculator
 
+This project aims to create a basic working calculator using HTML, CSS, and JavaScript. 
+
+
 Reflection: This project definitely did take a lot of time to work on.
 One of my biggest mistakes was not planning enough to include the extra
 credit work because I should have done that. Consequently, I cannot do
