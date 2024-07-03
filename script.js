@@ -15,7 +15,12 @@ function operate(num1, num2, operator)
             console.log("ERROR! INVALID OPERATOR!!!");
             break;
     }
+}
 
+function interactButton(numVal, first_num, second_num, verifySecond,
+     dotUsed, negativeVal)
+{
+    
 }
 
 function display()
@@ -30,6 +35,17 @@ function display()
     // Display the default value to the screen
     const result = document.querySelector(".results");
     result.textContent = firstNum;
+
+    // Keyboard support
+    document.body.addEventListener("keydown", (e) => {
+        console.log(e.key);
+        switch (e.key)
+        {
+            case "Escape":
+
+                break;
+        }
+    });
 
     const input = document.querySelectorAll(".input");
 
