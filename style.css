@@ -78,3 +78,24 @@ body
     -webkit-transition: all .4s ease;
     background-color: rgb(156, 2, 2);
 }
+
+/** Add styling to buttons that are not numbers **/
+.AC, .neg, .percent
+{
+    background-color: orange;
+}
+
+.add, .subtract, .multiply, .divide, .equal
+{
+    background-color: greenyellow;
+}
+
+.AC:hover, .neg:hover, .percent:hover, .equal:hover
+{
+    background-color: rgb(161, 106, 4);
+}
+
+.add:hover, .subtract:hover, .multiply:hover, .divide:hover, .equal:hover
+{
+    background-color: rgb(106, 156, 30);
+}
