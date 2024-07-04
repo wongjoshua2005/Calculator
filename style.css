@@ -17,7 +17,7 @@ body
 .container 
 {
     width: 30%;
-    height: 500px;
+    height: 85vh;
     background-color:darkred;
     border-radius: 10px;
 }
@@ -54,8 +54,7 @@ body
     gap: 5px;
     justify-content: space-between;
     align-items: center;
-    width: 60vh;
-    height: max-content;
+    width: 90%;
 }
 
 /** Style the calculator buttons **/
